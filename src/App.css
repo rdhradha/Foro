@@ -1,0 +1,147 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://static.independent.co.uk/2022/10/06/13/renewable%20energy%202022.jpg?quality=75&width=990&crop=3%3A2%2Csmart&auto=webp'); /* Ruta de tu imagen de fondo */
+  background-size: cover; /* Ajusta para cubrir toda la pantalla */
+  background-position: center; /* Ajusta la posición de la imagen */
+  background-repeat: no-repeat; /* repetición de la imagen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+nav {
+  background-color: #e06f42;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0; /* Ajusta la posición izquierda a 0 */
+    right: 0; /* Ajusta la posición derecha a 0 */
+    text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+#categorias {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9; /* Un tono ligeramente más claro para el fondo */
+  border: 1px solid #ddd; /* Un borde sutil */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#categorias h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#categorias ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#categorias li {
+  margin-bottom: 10px;
+}
+
+#categorias a {
+  text-decoration: none;
+  color: #007bff; /* Un color azul más vibrante */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#categorias a:hover {
+  color: #0056b3; /* Cambia el color al pasar el ratón */
+}
+
+
+#perfil {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.perfil-title {
+  color: #333;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.perfil-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  margin-bottom: 20px;
+}
+
+.perfil-details {
+  text-align: left;
+}
+
+.perfil-details p {
+  margin: 0;
+  color: #555;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+
+
+#hilos, #busqueda, #formulario-publicacion {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hilo {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.mensaje {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+
+
+#root {
+  max-width: 1280px;
+  margin-top: 60px;
+  padding: 2rem;
+  text-align: center;
+}
+
